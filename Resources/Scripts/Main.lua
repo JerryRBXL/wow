@@ -41,7 +41,7 @@ Environment.Settings = {
     AliveCheck = true,
     WallCheck = false, -- Laggy
     Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
-    TriggerKey = "MouseButton2",
+    TriggerKey = "q",
     Toggle = false,
     LockPart = "Head" -- Body part to lock on
 }
@@ -318,7 +318,7 @@ function Environment.Functions:ResetSettings()
         AliveCheck = true,
         WallCheck = false,
         Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
-        TriggerKey = "MouseButton2",
+        TriggerKey = "q",
         Toggle = false,
         LockPart = "Head" -- Body part to lock on
     }
